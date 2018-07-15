@@ -59,6 +59,7 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
+  padding: 40px;
 }
 nav h1 {
   margin: auto;
@@ -283,4 +284,5 @@ nav h1 a {
   #maincontent {
     width: 100%;
   }
+
 }
