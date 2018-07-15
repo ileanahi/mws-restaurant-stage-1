@@ -59,7 +59,7 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
-  padding: 40px;
+  padding: 24px;
 }
 nav h1 {
   margin: auto;
@@ -157,9 +157,7 @@ nav h1 a {
   background-color: #ccc;
   display: block;
   margin: 0;
-  max-width: 100%;
-  min-height: 248px;
-  min-width: 100%;
+  max-width: 80%;
 }
 #restaurants-list li h1 {
   color: #f18200;
@@ -284,5 +282,9 @@ nav h1 a {
   #maincontent {
     width: 100%;
   }
+
+    select {
+      margin: 24px;
+    }
 
 }
