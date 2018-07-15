@@ -291,4 +291,8 @@ nav h1 a {
     #restaurants-list li {
       margin: 15px auto;
     }
+
+    #restaurants-list li a {
+      padding: 24px;
+    }
   }
