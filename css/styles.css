@@ -192,11 +192,11 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  /* height: 87%;
   position: fixed;
   right: 0;
   top: 80px;
-  width: 50%;
+  width: 50%; */
 }
 .inside #map {
   background-color: #ccc;
@@ -276,6 +276,7 @@ nav h1 a {
 }
 
 @media screen and (max-width: 500px) {
+  /* Main Page */
   #maincontent {
     width: 100%;
   }
@@ -295,4 +296,12 @@ nav h1 a {
     #restaurants-list li a {
       padding: 24px;
     }
+
+    #restaurant-container, #reviews-container {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* Restaurant Page */
+
   }
