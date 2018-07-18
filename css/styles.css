@@ -303,5 +303,8 @@ nav h1 a {
     }
 
     /* Restaurant Page */
-
+    .inside #map-container {
+      height: 50%;
+      width: 100%;
+    }
   }
