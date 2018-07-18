@@ -193,7 +193,7 @@ nav h1 a {
 .inside #map-container {
   background: blue none repeat scroll 0 0;
   height: 87%;
-  /* position: fixed; */
+  position: fixed;
   right: 0;
   top: 80px;
   width: 50%;
@@ -297,12 +297,27 @@ nav h1 a {
       padding: 24px;
     }
 
+    /* Restaurant Page */
+nav {
+  position: relative;
+}
+
+ul {
+  position: relative;
+}
+
     #restaurant-container, #reviews-container {
       width: 100%;
+    }
+
+    #restaurant-container {
+      padding: 200px 25px 20px;
+    }
+
+    #reviews-container {
       margin: 0 auto;
     }
 
-    /* Restaurant Page */
     .inside #map-container {
       height: 50%;
       width: 100%;
