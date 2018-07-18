@@ -193,7 +193,7 @@ nav h1 a {
 .inside #map-container {
   background: blue none repeat scroll 0 0;
   height: 87%;
-  position: fixed;
+  /* position: fixed; */
   right: 0;
   top: 80px;
   width: 50%;
@@ -265,7 +265,7 @@ nav h1 a {
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
-  position: relative;
+  /* position: relative; */
   width: 85%;
 }
 #reviews-list li p {
@@ -308,8 +308,12 @@ nav h1 a {
       width: 100%;
     }
 
-    #breadcrumb {
+    .inside #breadcrumb {
       width: 100%;
       padding: 20px;
+    }
+
+    .inside #footer {
+      width: 100%;
     }
   }
