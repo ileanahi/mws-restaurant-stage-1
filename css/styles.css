@@ -307,4 +307,8 @@ nav h1 a {
       height: 50%;
       width: 100%;
     }
+
+    #breadcrumb {
+      width: 100%;
+    }
   }
