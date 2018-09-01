@@ -151,7 +151,7 @@ nav h1 a {
   text-align: left;
   max-width: 500px;
   width: 80%;
-
+  margin: 15px auto;
 }
 #restaurants-list .restaurant-img {
   display: block;
@@ -289,11 +289,6 @@ nav h1 a {
     }
 
 
-
-    #restaurants-list li {
-      margin: 15px auto;
-    }
-
     #restaurants-list li a {
       padding: 24px;
     }
@@ -339,9 +334,6 @@ ul {
      height: 100px;
    }
 
-   #restaurants-list ul {
-     margin: 0 auto;
-   }
    #restaurants-list li {
      width: 35%;
      margin: 15px;
