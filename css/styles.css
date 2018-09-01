@@ -139,7 +139,7 @@ nav h1 a {
   padding: 30px 15px 60px;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 #restaurants-list li {
@@ -276,3 +276,75 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+@media screen and (max-width: 500px) {
+  /* Main Page */
+  #maincontent {
+    width: 100%;
+  }
+
+    select {
+      margin: 24px;
+    }
+
+    #restaurants-list .restaurant-img {
+      margin: 10px 0;
+    }
+
+    #restaurants-list li {
+      margin: 15px auto;
+    }
+
+    #restaurants-list li a {
+      padding: 24px;
+    }
+
+    /* Restaurant Page */
+nav {
+  position: relative;
+}
+
+ul {
+  position: relative;
+}
+
+    #restaurant-container, #reviews-container {
+      width: 100%;
+    }
+
+    #restaurant-container {
+      padding: 200px 25px 20px;
+    }
+
+    #reviews-container {
+      margin: 0 auto;
+    }
+
+    .inside #map-container {
+      height: 50%;
+      width: 100%;
+    }
+
+    .inside #breadcrumb {
+      width: 100%;
+      padding: 20px;
+    }
+
+    .inside #footer {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 501px) {
+   .filter-options {
+     height: 100px;
+   }
+
+   #restaurants-list ul {
+     margin: 0 auto;
+   }
+   #restaurants-list li {
+     width: 35%;
+     margin: 15px;
+   }
+  }
