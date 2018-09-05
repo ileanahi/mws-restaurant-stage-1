@@ -261,6 +261,9 @@ nav h1 a {
 .restaurant-info-label {
   display: none;
 }
+.map-aria-description {
+  display: none;
+}
 #reviews-container {
   padding: 30px 40px 80px;
 }
