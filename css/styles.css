@@ -264,13 +264,19 @@ nav h1 a {
   align-items: center;
   margin-top: 20px;
 }
+#restaurant-hours {
+  max-width: 500px;
+}
+
+#restaurant-hours td {
+  color: #666;
+}
 .restaurant-info-label {
   display: none;
 }
 .map-aria-description {
   display: none;
 }
-
 #reviews-container h2 {
   color: #f58500;
   font-size: 24pt;
@@ -278,7 +284,6 @@ nav h1 a {
   letter-spacing: -1px;
   padding-bottom: 1pt;
 }
-
 #reviews-list ul {
   margin: 0 auto;
   padding: 0;
@@ -297,9 +302,7 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
 }
-#restaurant-hours td {
-  color: #666;
-}
+
 
 @media screen and (max-width: 500px) {
   /* Main Page */
