@@ -279,8 +279,8 @@ nav h1 a {
   padding-bottom: 1pt;
 }
 
-#reviews-list {
-  margin: 0;
+#reviews-list ul {
+  margin: 0 auto;
   padding: 0;
 }
 #reviews-list li {
