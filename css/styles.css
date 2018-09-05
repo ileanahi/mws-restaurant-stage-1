@@ -327,12 +327,15 @@ nav h1 a {
     }
   }
 
-  @media screen and (min-width: 501px) {
-   .filter-options {
-     height: 100px;
-   }
+  @media screen and (min-width: 570px) {
 
    #restaurants-list li {
-     width: 45%;
+     width: 40%;
    }
+  }
+
+  @media screen and (min-width: 800px) {
+    #restaurants-list li {
+      width: 25%;
+    }
   }
