@@ -256,6 +256,10 @@ nav h1 a {
   padding: 0 20px;
   width: 100%;
 }
+
+.restaurant-info-label {
+  display: none;
+}
 #reviews-container {
   padding: 30px 40px 80px;
 }
