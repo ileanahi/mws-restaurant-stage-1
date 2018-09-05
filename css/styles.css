@@ -192,30 +192,31 @@ nav h1 a {
   display: flex;
   flex-direction: column;
 }
-
+/*
 .inside header {
   position: fixed;
   top: 0;
   width: 100%;
-}
+} */
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
-  position: fixed;
+  height: 200px;
+  /*position: fixed;
   right: 0;
   top: 80px;
-  width: 50%;
+  width: 50%; */
 }
 .inside #map {
   background-color: #ccc;
   height: 100%;
   width: 100%;
 }
+/*
 .inside #footer {
   bottom: 0;
   position: absolute;
   width: 50%;
-}
+} */
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
