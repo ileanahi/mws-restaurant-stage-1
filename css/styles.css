@@ -79,6 +79,7 @@ nav h1 a {
     font-size: 17px;
     margin: 0;
     width: 100%;
+    text-align: left;
 }
 
 /* Display list items side by side */
@@ -285,18 +286,16 @@ nav h1 a {
   padding-bottom: 1pt;
 }
 #reviews-list ul {
-  margin: 0 auto;
   padding: 0;
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
-  /* position: relative; */
   width: 85%;
 }
 #reviews-list li p {
