@@ -258,6 +258,12 @@ nav h1 a {
 #restaurant-address-and-hours {
   padding: 20px;
 }
+.restaurant-hours-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 .restaurant-info-label {
   display: none;
 }
@@ -272,6 +278,7 @@ nav h1 a {
   letter-spacing: -1px;
   padding-bottom: 1pt;
 }
+
 #reviews-list {
   margin: 0;
   padding: 0;
