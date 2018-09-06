@@ -60,7 +60,7 @@ nav {
   width: 100%;
   background-color: #252831;
   text-align: center;
-  padding: 24px 0 0 0;
+  padding: 24px 0 0;
 }
 nav h1 {
   margin: auto;
@@ -73,7 +73,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
-    padding: 10px 40px 16px;
+    padding: 10px 40px 16px 20px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
@@ -250,7 +250,7 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 90%;
+	width: 100%;
 }
 #restaurant-container, #reviews-container {
   padding: 0 20px;
