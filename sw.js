@@ -1,5 +1,6 @@
 console.log('Service Worker: Registered');
 
+// Cache Files
 const cacheFiles = [
     '/',
     '/index.html',
@@ -21,6 +22,7 @@ const cacheFiles = [
     '/img/10.jpg'
 ];
 
+// Open cache on installation and returns a promise to add the cacheFiles
 self.addEventListener('install', function(e) {
     e.waitUntil(
         caches.open('v1').then(function(cache) {
@@ -28,3 +30,7 @@ self.addEventListener('install', function(e) {
         })
     );
 })
+
+self.addEventListener('fetch', function(e) {
+
+});
