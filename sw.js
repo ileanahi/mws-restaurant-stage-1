@@ -34,14 +34,29 @@ self.addEventListener('install', function(evt) {
 // Listen for fetch and see if the url already exists in the cache
 self.addEventListener('fetch', function(evt) {
     evt.respondWith(
-        caches.match(evt.request).then(function(response) {
+        caches.match(evt.request)
+        .then(function(response) {
             if (response) {
                 console.log('Found ', evt.request, ' in cache');
                 return response;
-            } else {
-                console.log('Could not find ', evt.request, ' in cache. Now fetching');
-                return fetch(evt.request);
             }
-        })
-    );
-});
+
+            let fetchRequest = evt.request.clone();
+
+            return fetch(fetchRequest).then(
+                function(response) {
+                    if(!response || response.status !== 200 || response.type !== 'basic') {
+                        return response;
+                    }
+
+                    let responseToCache = response.clone();
+                    caches.open(cacheFiles)
+                    .then(function(cache) {
+                        cache.put(evt.request, responseToCache);
+                    });
+
+                    return response;
+                });
+            });
+        );
+    }
