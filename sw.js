@@ -31,6 +31,17 @@ self.addEventListener('install', function(e) {
     );
 })
 
+// Listen for fetch and see if the url already exists in the cache
 self.addEventListener('fetch', function(e) {
-
+    e.respondWith(
+        caches.match(e.request).then(function(response) {
+            if (response) {
+                console.log('Found ', e.request, ' in cache');
+                return response;
+            } else {
+                console.log('Could not find ', e.request, ' in cache. Now fetching');
+                return fetch(e.request);
+            }
+        })
+    );
 });
