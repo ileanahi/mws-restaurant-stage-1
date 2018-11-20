@@ -1,10 +1,9 @@
-# Front End NanoDegree
+# Restaurant Reviews
 ---
-#### _Restaurant Reviews_
 
-## Project Overview: Stage 1
+## Project Overview
 
-This is a Udacity project for the Front End NanoDegree. I used a Service Worker to cache data for offline or lie-fi use. I also used media queries to convert the static webpage to a mobile-ready web application. Accessibility guidelines were followed to make the web application screen reader friendly.
+This is a Udacity project for the Front End Web Developer Nanodegree. I used a Service Worker to cache data for offline or lie-fi use. I also used media queries to convert the static webpage to a mobile-ready web application. Accessibility guidelines were followed to make the web application screen reader friendly.
 
 ### How to Use the Restaurant Reviews Application
 
